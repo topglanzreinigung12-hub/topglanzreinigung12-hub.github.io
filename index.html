@@ -1,3 +1,4 @@
+Update services - Removed Sofa and Buegelservice
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -68,9 +69,20 @@ border-radius:12px;
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
 h2{
 text-align:center;
 color:#0b3d91;
+}
+
+h3{
+color:#0b3d91;
+margin-top:0;
 }
 
 footer{
@@ -114,10 +126,42 @@ padding:20px;
 
 <h2>Unsere Services</h2>
 
+<div class="grid">
 <div class="card">🏢 Büroreinigung</div>
 <div class="card">🪟 Fensterreinigung</div>
 <div class="card">🧹 Grundreinigung</div>
 <div class="card">🧼 Teppichreinigung</div>
+</div>
+
+</section>
+
+<section>
+
+<h2>Weitere Dienstleistungen</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>👵 Seniorenhilfe</h3>
+<p>Freundliche Hilfe und Reinigung für ältere Menschen.</p>
+</div>
+
+<div class="card">
+<h3>❄️ Winterdienst</h3>
+<p>Schneeräumung und sichere Gehwege im Winter.</p>
+</div>
+
+<div class="card">
+<h3>🚚 Umzugsreinigung</h3>
+<p>Perfekte Reinigung vor oder nach dem Umzug.</p>
+</div>
+
+<div class="card">
+<h3>🏗️ Baustellenreinigung</h3>
+<p>Sauberkeit nach Renovierungen und Bauarbeiten.</p>
+</div>
+
+</div>
 
 </section>
 
@@ -136,20 +180,62 @@ Wir arbeiten schnell, flexibel und zu fairen Preisen ab 22€ pro Stunde.
 
 <h2>Galerie (Beispiel)</h2>
 
+<div class="grid">
 <div class="card">Vorher / Nachher</div>
 <div class="card">Büroreinigung</div>
 <div class="card">Fensterreinigung</div>
 <div class="card">Saubere Ergebnisse</div>
+</div>
 
 </section>
 
 <section>
 
-<h2>Kundenbewertungen (Beispiele)</h2>
+<h2>⭐⭐⭐⭐⭐ Kundenbewertungen</h2>
 
-<div class="card">⭐⭐⭐⭐⭐ Sehr zuverlässig und sauber. – Kunde</div>
-<div class="card">⭐⭐⭐⭐⭐ Schneller Termin und perfekte Arbeit. – Kunde</div>
-<div class="card">⭐⭐⭐⭐⭐ Sehr professionell und freundlich. – Kunde</div>
+<div class="grid">
+
+<div class="card">
+<h3>⭐⭐⭐⭐⭐</h3>
+<p>
+Sehr zuverlässig und sauber.  
+Top Service und freundliches Team.
+</p>
+<br>
+<b>– Kunde aus Leinefelde</b>
+</div>
+
+<div class="card">
+<h3>⭐⭐⭐⭐⭐</h3>
+<p>
+Schneller Termin und perfekte Arbeit.  
+Fenster sehen wieder wie neu aus.
+</p>
+<br>
+<b>– Kunde aus Eichsfeld</b>
+</div>
+
+<div class="card">
+<h3>⭐⭐⭐⭐⭐</h3>
+<p>
+Sehr professionell und freundlich.  
+Faire Preise und saubere Ergebnisse.
+</p>
+<br>
+<b>– Kunde aus Thüringen</b>
+</div>
+
+<div class="card">
+<h3>⭐⭐⭐⭐⭐</h3>
+<p>
+Beste Reinigungsfirma in der Umgebung.  
+Sehr empfehlenswert.
+</p>
+<br>
+<b>– Büro Kunde</b>
+</div>
+
+</div>
 
 </section>
 
