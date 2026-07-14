@@ -104,6 +104,15 @@
       <p><strong>📞 Telefon:</strong> <a href="tel:+491757433245">0175 7433245</a><br><strong>💬 WhatsApp:</strong> <a href="https://wa.me/491757433245">0175 7433245</a></p>
       <a class="btn" href="https://wa.me/491757433245">Direkt auf WhatsApp schreiben</a>
     </section>
+    <section class="card">
+<h2>Anfrage senden</h2>
+<form action="https://formsubmit.co/topglanzreinigung11@gmail.com" method="POST">
+  <input type="text" name="name" placeholder="Ihr Name" required>
+  <input type="email" name="email" placeholder="Ihre E-Mail" required>
+  <textarea name="message" placeholder="Ihre Nachricht" required></textarea>
+  <button type="submit" class="btn">Nachricht senden</button>
+</form>
+</section>
 
     <footer>© 2025 Top Glanz Reinigung • Leinefelde-Worbis, Thüringen</footer>
   </div>
