@@ -113,8 +113,15 @@
   <button type="submit" class="btn">Nachricht senden</button>
 </form>
 </section>
-
-    <footer>© 2025 Top Glanz Reinigung • Leinefelde-Worbis, Thüringen</footer>
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>TopGlanz Reinigung</strong></p>
+    <p>📞 <a href="tel:+491757433245">0175 7433245</a></p>
+    <p>✉ <a href="mailto:topglanzreinigung11@gmail.com">topglanzreinigung11@gmail.com</a></p>
+    <p>✉ <a href="mailto:topglanzreinigung12@gmail.com">topglanzreinigung12@gmail.com</a></p>
+    <p>© 2025 Leinefelde-Worbis, Thüringen</p>
+  </div>
+</footer>
   </div>
 </body>
 </html>
